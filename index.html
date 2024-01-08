@@ -65,10 +65,12 @@
 		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 			id="first">
 			<div class="content">
-				<h2>Retrieval Augmented Generation with LangChain</h2>
-				<p align="justify">Streamlit application that performs extractive question and answering using
+				<h2>Kant RAG</h2>
+				<p align="justify">Streamlit application that performs retrieval augmented generation using
 					philosophical documents from the works of Immanuel Kant. Leverages Streamlit, OpenAI, LangChain, and
-					FAISS. This application also utilizes Giskard to promote Responsible AI standards by scanning for
+					FAISS.
+				<p>
+					In order to promote Responsible AI standards, this application utilizes Giskard by scanning for
 					the following:
 				<ul>
 					<li>Injection attacks</li>
@@ -77,16 +79,26 @@
 					<li>Stereotypes</li>
 					<li>Information disclosure</li>
 				</ul>
+
+				<p>For evaluation, this application also leverages Ragas to evaluate both the generation and
+					retrieval
+					performance by calculating the following metrics:
+				<ul>
+					<li>Answer relevancy</li>
+					<li>Context precision</li>
+					<li>Context recall</li>
+					<li>Faithfulness</li>
+				</ul>
+
 				</p>
 				<ul class="actions stacked">
-					<li><a href="https://github.com/RohinMahesh/retrieval_augmented_generation_with_langchain"
-							class="button">Link to
+					<li><a href="https://github.com/RohinMahesh/kant_rag" class="button">Link to
 							Project</a>
 					</li>
 				</ul>
 			</div>
 			<div class="image">
-				<img src="images/openai_logo.png" alt="" />
+				<img src="images/openai_logo.jpeg" alt="" />
 			</div>
 		</section>
 
